@@ -16,6 +16,7 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
+    "storybook": "start-storybook -p 9001 -c ./storybook",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -35,5 +36,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@storybook/react": "^5.2.8",
+    "path": "^0.12.7",
+    "react-docgen-typescript-webpack-plugin": "^1.1.0"
   }
 }
